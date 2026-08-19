@@ -1,0 +1,6 @@
+# Track large trained checkpoints with Git LFS.
+# After cloning: `git lfs install` once, then `git lfs pull` to fetch these.
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.engine filter=lfs diff=lfs merge=lfs -text

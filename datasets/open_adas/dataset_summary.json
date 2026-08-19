@@ -1,0 +1,10 @@
+{
+  "bag_file": "rosbag2_2026_03_17-12_41_10_0.mcap",
+  "duration_s": 1425.803347858,
+  "n_scenes": 58,
+  "scene_duration_s": 25,
+  "total_camera_frames": 8565,
+  "total_annotated_frames": 4283,
+  "annotation_rate_fps": 3.0,
+  "has_obd2": false
+}

@@ -1,0 +1,38 @@
+[project]
+name = "gahanai-adas-perception"
+version = "0.1.0"
+description = "ADAS perception pipeline (12-class object detection + lane/drivable-area segmentation) for Indian road scenarios, built during an internship at Gahan AI."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Piyush Sharma" }
+]
+keywords = [
+    "adas",
+    "computer-vision",
+    "object-detection",
+    "lane-detection",
+    "yolo",
+    "twinlitenet",
+    "jetson",
+    "tensorrt",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Private :: Do Not Upload",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+
+[project.urls]
+Repository = "https://github.com/piyush1617ab/gahanai-adas-perception"
+
+[tool.setuptools]
+packages = []
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

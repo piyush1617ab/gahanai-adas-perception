@@ -1,0 +1,15 @@
+# Ultralytics-style dataset config for the ADAS object-detection model.
+# This is the actual configuration used to train the checkpoints shipped in
+# object_detection/models/ (verified against the class names embedded in
+# the .pt files themselves).
+#
+# `path` is set to a local placeholder — point it at wherever you've laid
+# out the dataset locally (see ../../datasets/README.md for expected
+# structure). Do not commit a machine-specific absolute path here.
+
+path: ../../datasets/open_adas   # dataset root — adjust to your local layout
+train: train/images
+val: val/images
+
+nc: 12
+names: ['person', 'rider', 'bicycle', 'motorcycle', 'auto_rickshaw', 'car', 'bus', 'truck', 'traffic_light', 'other', 'traffic_sign', 'number_plate']

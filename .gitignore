@@ -1,0 +1,108 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================================
+# Virtual environments
+# ============================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================
+# Training run outputs / generated artifacts
+# (checked-in checkpoints live under */models/ and are tracked
+# via Git LFS — see .gitattributes)
+# ============================================================
+runs/
+wandb/
+checkpoints/
+outputs/
+predictions/
+logs/
+*.log
+dataset_inventory.json
+
+# ============================================================
+# Local full-size datasets
+# Only the curated samples under datasets/ (README files, the
+# single sample frame + labels, sanitized CVAT/JSON schema
+# samples) are tracked. If you point training scripts at a full
+# local copy of OpenADAS / BDD100K, keep it outside this repo or
+# under one of the paths below.
+# ============================================================
+datasets/open_adas/scene_*/
+datasets/open_adas/train/
+datasets/open_adas/val/
+datasets/bdd100k/images/
+datasets/bdd100k/labels/
+datasets/lane_detection/train/
+datasets/lane_detection/val/
+datasets/lane_detection/test/
+datasets/**/merged_dataset/
+
+# ============================================================
+# Jupyter
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# IDEs / OS files
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Environment / secrets — never commit these
+# ============================================================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.yaml
+secrets.yml
+
+# ============================================================
+# Archives
+# ============================================================
+*.zip
+*.tar
+*.tar.gz
+
+# ============================================================
+# Misc
+# ============================================================
+*.bak
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/

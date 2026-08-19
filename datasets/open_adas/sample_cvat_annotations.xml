@@ -1,0 +1,1084 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1</id>
+      <name>scene_0000</name>
+      <size>3</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker />
+      <created>2026-03-19 06:48:12.074120+00:00</created>
+      <updated>2026-04-22 07:29:54.241701+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>2</stop_frame>
+      <frame_filter />
+      <segments>
+        <segment>
+          <id>21</id>
+          <start>0</start>
+          <stop>2</stop>
+          <url>https://&lt;your-cvat-server&gt;/api/tasks/1/dataset/export/api/jobs/1</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>annotator</username>
+        <email>annotator@example.com</email>
+      </owner>
+      <assignee />
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>Work</name>
+              <mutable>False</mutable>
+              <input_type>radio</input_type>
+              <default_value>Standing</default_value>
+              <values>Standing
+Walking
+Running
+Sitting
+Lying Down
+Pushing Vehicle
+Carrying Object
+Using Mobile Phone
+Crossing Road</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+            <attribute>
+              <name>adult</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>yes</default_value>
+              <values>yes
+no</values>
+            </attribute>
+            <attribute>
+              <name>group</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Alone</default_value>
+              <values>Alone
+In group</values>
+            </attribute>
+            <attribute>
+              <name>on-road</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>yes</default_value>
+              <values>yes
+no</values>
+            </attribute>
+            <attribute>
+              <name>child</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>yes</default_value>
+              <values>yes
+no</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>rider</name>
+          <color>#20e060</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Sitting</default_value>
+              <values>Sitting
+Using Mobile Phone
+Carrying Object</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+            <attribute>
+              <name>pillion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>yes</default_value>
+              <values>yes
+no</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>bicycle</name>
+          <color>#004040</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>motorcycle</name>
+          <color>#80a0a0</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>auto rickshaw</name>
+          <color>#4aba05</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>car</name>
+          <color>#2080c0</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>bus</name>
+          <color>#204080</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>truck</name>
+          <color>#906080</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>traffic light</name>
+          <color>#d0a000</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>State</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Red</default_value>
+              <values>Red
+Yellow
+Green
+Off</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>animal</name>
+          <color>#c00000</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>Type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>dog</default_value>
+              <values>dog
+cat
+cow
+horse</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10-50%
+50%-75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+90°
+180°
+270°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>other</name>
+          <color>#51b90a</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>any other object</default_value>
+              <values>any other object</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+45° – 135°
+180°
+225° – 315°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+            <attribute>
+              <name>Vehicle type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>HCV</default_value>
+              <values>HCV
+LCV</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>traffic sign</name>
+          <color>#a054eb</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>Type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>no_parking</default_value>
+              <values>no_parking
+no_entry
+stop
+no_stopping_standing
+one_way_left
+one_way_right
+left_turn_prohibited
+right_turn_prohibited
+u_turn_prohibited
+pedestrians_prohibited
+cycles_prohibited
+2wheeler_prohibited
+trucks_prohibited
+speed_limit
+overtaking_prohibited
+speed_bump_ahead
+right curve
+left curve
+go slow
+narrow bridge
+Steep ascent
+steep Descent
+Merge Sign</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10-50%
+50%-75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>pose</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>0°</default_value>
+              <values>0°
+45° – 135°
+180°
+225° – 315°</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>lane markings</name>
+          <color>#c3f3dd</color>
+          <type>polyline</type>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>solid</default_value>
+              <values>solid
+dashed
+double solid
+etc</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Yes</default_value>
+              <values>Yes
+No</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Yes</default_value>
+              <values>Yes
+No</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>road boundaries</name>
+          <color>#6875c9</color>
+          <type>polyline</type>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>curb</default_value>
+              <values>curb
+guardrail
+etc</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Yes</default_value>
+              <values>Yes
+No</values>
+            </attribute>
+            <attribute>
+              <name>truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Yes</default_value>
+              <values>Yes
+No</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Emergency vehicle</name>
+          <color>#8c23a3</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>vehicle</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Ambulances</default_value>
+              <values>Ambulances
+fire engines
+Police cars
+Rescue units
+Motorcycle</values>
+            </attribute>
+            <attribute>
+              <name>work</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Moving</default_value>
+              <values>Moving
+Signal stop
+Side/parking</values>
+            </attribute>
+            <attribute>
+              <name>occlusion</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt;10%</default_value>
+              <values>&lt;10%
+10–50%
+50–75%
+&gt;75%</values>
+            </attribute>
+            <attribute>
+              <name>Truncation</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>&lt; 10%</default_value>
+              <values>&lt; 10%
+10% – 50%
+50% – 75%
+&gt; 75%</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Number plate</name>
+          <color>#27f0ec</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Visible</default_value>
+              <values>Visible
+Non-visible</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Image</name>
+          <color>#3bcd6c</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>Type</name>
+              <mutable>True</mutable>
+              <input_type>radio</input_type>
+              <default_value>Road</default_value>
+              <values>Road
+Flyover
+Underpass</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-05-28 11:40:31.125854+00:00</dumped>
+  </meta>
+  <image id="0" name="Open_ADAS/adas_dataset/scenes/scene_0000/camera/images/frame_000001_1773731473977924362.jpg" width="1920" height="1080">
+    <polyline label="lane markings" source="manual" occluded="0" points="964.89,594.37;1096.59,632.87;1365.39,716.35;1920.00,885.95" z_order="0">
+      <attribute name="type">dashed</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="108.43,1080.00;610.14,795.92;850.98,648.02;904.86,613.08;916.15,605.62;918.60,598.56" z_order="0">
+      <attribute name="type">solid</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="0.00,737.50;130.76,718.93" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="382.95,678.64;866.96,597.88" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">No</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="1235.07,614.99;1499.60,638.33;1920.00,668.86" z_order="0">
+      <attribute name="type">solid</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="130.42,719.03;382.50,678.70" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">Yes</attribute>
+      <attribute name="truncation">No</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="1269.77,587.18;1572.41,580.56;1920.00,567.08" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <box label="motorcycle" source="manual" occluded="0" xtl="111.55" ytl="509.20" xbr="393.17" ybr="812.86" z_order="0">
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="work">Moving</attribute>
+    </box>
+    <box label="rider" source="manual" occluded="0" xtl="188.50" ytl="417.20" xbr="345.37" ybr="747.85" z_order="0">
+      <attribute name="work">Carrying Object</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="pillion">no</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="1046.23" ytl="481.90" xbr="1173.20" ybr="615.90" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="motorcycle" source="manual" occluded="0" xtl="867.56" ytl="581.90" xbr="883.00" ybr="607.41" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="rider" source="manual" occluded="0" xtl="867.74" ytl="570.40" xbr="883.00" ybr="602.79" z_order="0">
+      <attribute name="work">Sitting</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="pillion">no</attribute>
+    </box>
+    <box label="car" source="manual" occluded="0" xtl="936.07" ytl="574.80" xbr="958.80" ybr="597.03" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="953.98" ytl="564.70" xbr="974.10" ybr="594.30" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="918.11" ytl="572.00" xbr="931.40" ybr="591.22" z_order="0">
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+    </box>
+    <box label="Number plate" source="manual" occluded="0" xtl="128.52" ytl="706.10" xbr="166.08" ybr="734.91" z_order="0">
+      <attribute name="type">Non-visible</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Type">Road</attribute>
+    </tag>
+  </image>
+  <image id="1" name="Open_ADAS/adas_dataset/scenes/scene_0000/camera/images/frame_000003_1773731474267275894.jpg" width="1920" height="1080">
+    <polyline label="road boundaries" source="manual" occluded="0" points="1292.81,587.28;1510.77,582.63;1766.20,575.79;1920.00,568.28" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="429.78,670.31;706.73,625.23;808.46,608.49;867.72,597.48" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">No</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="198.15,706.94;430.75,670.13" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">Yes</attribute>
+      <attribute name="truncation">No</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="121.32,1080.00;670.59,767.87;851.95,647.38;908.38,612.82;918.38,599.41" z_order="0">
+      <attribute name="type">solid</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="0.00,732.88;198.25,706.17" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="1223.86,614.15;1499.29,637.56;1920.00,665.97" z_order="0">
+      <attribute name="type">solid</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="1919.88,894.96;1396.85,723.72;1102.12,633.45;1028.15,613.13" z_order="0">
+      <attribute name="type">dashed</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <box label="motorcycle" source="manual" occluded="0" xtl="187.46" ytl="514.40" xbr="431.10" ybr="795.03" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="rider" source="manual" occluded="0" xtl="249.77" ytl="431.90" xbr="392.70" ybr="734.53" z_order="0">
+      <attribute name="work">Carrying Object</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="pillion">no</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="1044.10" ytl="483.00" xbr="1168.60" ybr="615.30" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="motorcycle" source="manual" occluded="0" xtl="868.49" ytl="580.74" xbr="883.93" ybr="606.25" z_order="0">
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="work">Moving</attribute>
+    </box>
+    <box label="rider" source="manual" occluded="0" xtl="868.79" ytl="569.71" xbr="884.04" ybr="602.09" z_order="0">
+      <attribute name="pillion">no</attribute>
+      <attribute name="work">Sitting</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="car" source="manual" occluded="0" xtl="935.26" ytl="575.10" xbr="957.60" ybr="596.22" z_order="0">
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="953.38" ytl="565.00" xbr="973.20" ybr="593.60" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="917.71" ytl="571.90" xbr="931.00" ybr="591.12" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="Number plate" source="manual" occluded="0" xtl="195.95" ytl="696.73" xbr="232.70" ybr="723.40" z_order="0">
+      <attribute name="type">Non-visible</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Type">Road</attribute>
+    </tag>
+  </image>
+  <image id="2" name="Open_ADAS/adas_dataset/scenes/scene_0000/camera/images/frame_000005_1773731474547534158.jpg" width="1920" height="1080">
+    <polyline label="lane markings" source="manual" occluded="0" points="918.30,596.70;914.34,604.98;813.71,669.52;511.01,854.79;119.27,1080.00" z_order="0">
+      <attribute name="type">solid</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="1920.00,873.88;1467.52,742.64;1107.67,635.03;1027.60,612.74" z_order="0">
+      <attribute name="type">dashed</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="284.38,689.65;483.37,661.11" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">Yes</attribute>
+      <attribute name="truncation">No</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="1287.24,585.33;1535.79,580.77;1920.00,569.15" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="-0.00,729.75;285.03,689.68" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="road boundaries" source="manual" occluded="0" points="482.18,661.14;726.15,620.29;865.61,597.03" z_order="0">
+      <attribute name="type">curb</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <polyline label="lane markings" source="manual" occluded="0" points="1201.04,611.73;1421.57,630.74;1775.70,655.79;1920.00,663.29" z_order="0">
+      <attribute name="type">solid</attribute>
+      <attribute name="occlusion">No</attribute>
+      <attribute name="truncation">Yes</attribute>
+    </polyline>
+    <box label="motorcycle" source="manual" occluded="0" xtl="272.07" ytl="522.00" xbr="488.40" ybr="772.01" z_order="0">
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="work">Moving</attribute>
+    </box>
+    <box label="rider" source="manual" occluded="0" xtl="330.36" ytl="447.90" xbr="461.30" ybr="725.87" z_order="0">
+      <attribute name="work">Carrying Object</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="pillion">no</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="1041.40" ytl="485.60" xbr="1160.80" ybr="613.20" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="motorcycle" source="manual" occluded="0" xtl="868.89" ytl="580.84" xbr="884.33" ybr="606.35" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="rider" source="manual" occluded="0" xtl="869.05" ytl="569.17" xbr="884.31" ybr="601.56" z_order="0">
+      <attribute name="work">Sitting</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+      <attribute name="pillion">no</attribute>
+    </box>
+    <box label="car" source="manual" occluded="0" xtl="936.02" ytl="576.50" xbr="956.50" ybr="595.54" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="953.13" ytl="565.05" xbr="972.30" ybr="593.30" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="truck" source="manual" occluded="0" xtl="917.48" ytl="572.30" xbr="930.40" ybr="590.34" z_order="0">
+      <attribute name="work">Moving</attribute>
+      <attribute name="occlusion">&lt;10%</attribute>
+      <attribute name="pose">0°</attribute>
+      <attribute name="Truncation">&lt; 10%</attribute>
+    </box>
+    <box label="Number plate" source="manual" occluded="0" xtl="285.06" ytl="685.12" xbr="320.60" ybr="707.60" z_order="0">
+      <attribute name="type">Non-visible</attribute>
+    </box>
+    <tag label="Image" source="manual">
+      <attribute name="Type">Road</attribute>
+    </tag>
+  </image>
+  </annotations>

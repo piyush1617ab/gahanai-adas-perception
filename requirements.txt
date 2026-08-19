@@ -1,0 +1,35 @@
+# ============================================================
+# Core requirements for the ADAS perception pipeline
+# Derived from the actual imports in object_detection/scripts/
+# and lane_segmentation/scripts/.
+# ============================================================
+
+# --- Deep learning core ---
+torch>=2.1.0
+torchvision>=0.16.0
+
+# --- Object detection (YOLO26 fine-tuning + inference) ---
+ultralytics>=8.3.0
+
+# --- Computer vision / image processing ---
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# --- Config, data handling, utilities ---
+pyyaml>=6.0
+tqdm>=4.66.0
+psutil>=5.9.0          # used by object_detection/scripts/export_tensorrt.py
+
+# --- ONNX export path (both object_detection and lane_segmentation) ---
+onnx>=1.15.0
+onnxruntime>=1.16.0
+
+# ============================================================
+# NOT INCLUDED — set up separately:
+# ============================================================
+# - TensorRT / trtexec: installed via NVIDIA JetPack on the Jetson target,
+#   not via pip. See object_detection/scripts/export_tensorrt.py and
+#   docs/deployment.md.
+# - CVAT itself, if you want to re-annotate: run as its own service
+#   (https://github.com/cvat-ai/cvat), not a Python dependency here.
