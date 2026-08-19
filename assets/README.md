@@ -9,6 +9,3 @@ assets/
 ├── qualitative_results/   # Example model output visualizations (lane overlays, detection boxes)
 └── architecture/          # Architecture diagrams referenced from docs/ and READMEs
 ```
-
-No images are included yet. Do not commit proprietary dataset images or
-large binary files here — keep assets small and appropriately licensed.
